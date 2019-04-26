@@ -8,28 +8,161 @@
     <title>Setup Bootstrap</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
     <div class="container">
-        <h1 class="text-center">Siziing and Spacing</h1>
+        <div class="row">
+            <h1 class="text-center w-100">"First Bootstrap Project"</h1>
+        </div>
         <div class="row">
             <div class="col-4">
+                <div class="bg-success">
+                    <h1 class="text-center">Hello</h1>
+                </div>
+            </div>
+            <div class="col-4">
                 <div class="bg-primary">
-                    <h1 class="text-white text-center px-3 py-3">Hello</h1>
+                    <h1 class="text-center">World</h1>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="bg-danger">
+                    <h1 class="text-center">!!!</h1>
                 </div>
             </div>
         </div>
-        <div class="row mt-4">
-                <div class="col-4">
-                    <div class="bg-success">
-                        <img class="w-100" src="https://hips.hearstapps.com/pop.h-cdn.co/assets/17/04/1280x800/gallery-1485372460-death.jpeg?resize=480:*" alt="">
+        <div class="row">
+            <form class="col-12 border border-primary p-3">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Cats
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Dogs
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Cheese Pizza
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Hawaiian Pizza
+                    </label>
+                </div>
+
+                <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                        value="option3" disabled>
+                    <label class="form-check-label" for="exampleRadios3">
+                        Supreme Pizza
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-md-4 p-0">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Khal Drogo</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <p> A powerful khal (king) among the Dothraki people and the husband of Daenerys Targaryen. Stoic and brave, Drogo is an exceptional warrior who shows his enemies no mercy. He controls a massive nomadic tribe, or khalasar.
+                        </p>
                     </div>
                 </div>
             </div>
+            <div class="col-md-4 p-0">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Daenerys Stormborn Targaryen</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <p>The Dothraki khaleesi (queen) and Targaryen princess. She and her brother are the only surviving members of the Targaryen family, and she grows from a frightened girl to a confident ruler, while still maintaining her kindness, over the course of the novel.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-0">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Jon Snow </h3>
+                    </div>
+
+                    <div class="card-body">
+                        <p>Ned Stark’s bastard son. Since Catelyn is not his mother, he is not a proper member of the Stark family, and he often feels himself an outsider. He is also a highly capable swordsman and thinker, with a knack for piercing observations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-0">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Tyrion (The Imp) Lannister</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <p>A small man with a giant intellect and sharp tongue. Tyrion does not pity himself but rather accepts his shortcomings as a little person and turns them to his advantage. He loves his family but recognizes their greed and ambition.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-0">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Arya Stark </h3>
+                    </div>
+
+                    <div class="card-body">
+                        <p>The youngest Stark girl and a wild, willful, but very intelligent child. What the ten-year-old Ayra lacks in her sister’s refinement, she makes up for with skill in swordfighting and riding. Arya rejects the idea of a woman’s role being to marry and have babies.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-0">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Ser Jaime (The Kingslayer) Lannister</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <p>Brother to Tyrion and Cersei, as well as Cersei’s lover. Jaime is arrogant, short-tempered, and rash, but he’s also a gifted swordsman. He is widely mistrusted and called Kingslayer because he murdered the previous king.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
